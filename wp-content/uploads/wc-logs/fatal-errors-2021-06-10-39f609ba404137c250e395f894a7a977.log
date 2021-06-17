@@ -1,0 +1,84 @@
+2021-06-10T01:56:13+00:00 CRITICAL Cannot redeclare save_date_meta_box_data() (previously declared in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php:116) in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php on line 154
+
+2021-06-10T01:56:16+00:00 CRITICAL Cannot redeclare save_date_meta_box_data() (previously declared in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php:116) in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php on line 154
+
+2021-06-10T01:56:20+00:00 CRITICAL Cannot redeclare save_date_meta_box_data() (previously declared in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php:116) in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php on line 154
+
+2021-06-10T01:56:20+00:00 CRITICAL Cannot redeclare save_date_meta_box_data() (previously declared in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php:116) in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php on line 154
+
+2021-06-10T01:56:20+00:00 CRITICAL Cannot redeclare save_date_meta_box_data() (previously declared in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php:116) in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php on line 154
+
+2021-06-10T01:56:22+00:00 CRITICAL Cannot redeclare save_date_meta_box_data() (previously declared in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php:116) in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php on line 154
+
+2021-06-10T01:56:26+00:00 CRITICAL Cannot redeclare save_date_meta_box_data() (previously declared in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php:116) in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php on line 154
+
+2021-06-10T01:56:26+00:00 CRITICAL Cannot redeclare save_date_meta_box_data() (previously declared in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php:116) in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php on line 154
+
+2021-06-10T01:56:26+00:00 CRITICAL Cannot redeclare save_date_meta_box_data() (previously declared in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php:116) in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php on line 154
+
+2021-06-10T01:56:29+00:00 CRITICAL Cannot redeclare save_date_meta_box_data() (previously declared in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php:116) in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php on line 154
+
+2021-06-10T01:56:34+00:00 CRITICAL Cannot redeclare save_date_meta_box_data() (previously declared in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php:116) in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php on line 154
+
+2021-06-10T01:56:35+00:00 CRITICAL Cannot redeclare save_date_meta_box_data() (previously declared in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php:116) in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php on line 154
+
+2021-06-10T01:56:35+00:00 CRITICAL Cannot redeclare save_date_meta_box_data() (previously declared in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php:116) in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php on line 154
+
+2021-06-10T01:56:36+00:00 CRITICAL Cannot redeclare save_date_meta_box_data() (previously declared in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php:116) in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php on line 154
+
+2021-06-10T01:57:35+00:00 CRITICAL Cannot redeclare save_date_meta_box_data() (previously declared in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php:116) in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php on line 154
+
+2021-06-10T02:02:27+00:00 CRITICAL syntax error, unexpected 'get_footer' (T_STRING), expecting ';' or ',' in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/index.php on line 6
+
+2021-06-10T02:02:33+00:00 CRITICAL syntax error, unexpected 'get_footer' (T_STRING), expecting ';' or ',' in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/index.php on line 6
+
+2021-06-10T02:05:29+00:00 CRITICAL syntax error, unexpected 'get_footer' (T_STRING), expecting ';' or ',' in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/index.php on line 6
+
+2021-06-10T02:25:06+00:00 CRITICAL syntax error, unexpected ''right'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php on line 140
+
+2021-06-10T02:25:09+00:00 CRITICAL syntax error, unexpected ''right'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php on line 140
+
+2021-06-10T02:25:58+00:00 CRITICAL syntax error, unexpected ''side'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php on line 140
+
+2021-06-10T02:26:03+00:00 CRITICAL syntax error, unexpected ''side'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php on line 140
+
+2021-06-10T02:26:03+00:00 CRITICAL syntax error, unexpected ''side'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php on line 140
+
+2021-06-10T02:29:15+00:00 CRITICAL syntax error, unexpected ''advanced'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php on line 140
+
+2021-06-10T02:29:23+00:00 CRITICAL syntax error, unexpected ''normal'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php on line 140
+
+2021-06-10T03:23:16+00:00 CRITICAL Cannot redeclare change_project_story_title_placeholder() (previously declared in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php:47) in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php on line 57
+
+2021-06-10T03:24:16+00:00 CRITICAL Cannot redeclare change_project_story_title_placeholder() (previously declared in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php:47) in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php on line 57
+
+2021-06-10T03:24:33+00:00 CRITICAL Cannot redeclare change_project_story_title_placeholder() (previously declared in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php:47) in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php on line 57
+
+2021-06-10T03:24:35+00:00 CRITICAL Cannot redeclare change_project_story_title_placeholder() (previously declared in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php:47) in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/functions.php on line 57
+
+2021-06-10T03:41:42+00:00 CRITICAL syntax error, unexpected '.' in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/front-page.php on line 49
+
+2021-06-10T03:41:46+00:00 CRITICAL syntax error, unexpected '.' in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/front-page.php on line 49
+
+2021-06-10T03:42:11+00:00 CRITICAL syntax error, unexpected '.' in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/front-page.php on line 49
+
+2021-06-10T03:42:15+00:00 CRITICAL syntax error, unexpected '.' in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/front-page.php on line 49
+
+2021-06-10T23:31:34+00:00 CRITICAL syntax error, unexpected 'category' (T_STRING), expecting ']' in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/woocommerce/archive-product.php on line 49
+
+2021-06-10T23:31:34+00:00 CRITICAL syntax error, unexpected 'category' (T_STRING), expecting ']' in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/woocommerce/archive-product.php on line 49
+
+2021-06-10T23:31:38+00:00 CRITICAL syntax error, unexpected 'category' (T_STRING), expecting ']' in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/woocommerce/archive-product.php on line 49
+
+2021-06-10T23:31:50+00:00 CRITICAL syntax error, unexpected 'category' (T_STRING), expecting ']' in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/woocommerce/archive-product.php on line 49
+
+2021-06-10T23:53:08+00:00 CRITICAL syntax error, unexpected '95' (T_LNUMBER), expecting ')' in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/woocommerce/archive-product.php on line 49
+
+2021-06-10T23:53:08+00:00 CRITICAL syntax error, unexpected '95' (T_LNUMBER), expecting ')' in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/woocommerce/archive-product.php on line 49
+
+2021-06-10T23:53:40+00:00 CRITICAL syntax error, unexpected '95' (T_LNUMBER), expecting ')' in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/woocommerce/archive-product.php on line 48
+
+2021-06-10T23:53:40+00:00 CRITICAL syntax error, unexpected '95' (T_LNUMBER), expecting ')' in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/woocommerce/archive-product.php on line 48
+
+2021-06-10T23:53:42+00:00 CRITICAL syntax error, unexpected '95' (T_LNUMBER), expecting ')' in /Applications/MAMP/htdocs/jack-robert-photography/wp-content/themes/jack-robert-photography/woocommerce/archive-product.php on line 48
+

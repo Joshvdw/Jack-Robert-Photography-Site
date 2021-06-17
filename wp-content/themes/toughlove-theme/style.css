@@ -1,0 +1,606 @@
+/*
+Theme Name: Toughlove Redesign Theme
+Theme URI: https://joshvdw.com/theme
+Author: Joshua van der Waay
+Author URI: https: //joshvdw.com/theme
+Description: Custom theme for Toughlove Website Redesign
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: <https://www.gnu.org/licenses/gpl-2.0.html>
+Text Domain: my-custom-theme
+Tags: custom-background
+*/
+
+/* GENERAL */
+* {
+    box-sizing: border-box;
+}
+body {
+       background-color: #BA3145;
+       color: white;
+       font-family: 'Roboto', sans-serif;
+       font-weight: 300;
+       letter-spacing: 1.2px;
+       margin: 0;
+       padding:0;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+ul li {
+    list-style-type: none;
+    float: right;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+button {
+    border-radius: 5px!important;
+}
+
+/* HAMBURGER MENU */
+.mobile-nav {
+    display: none;
+}
+.dropdown {
+    display: none;
+}
+.hamburger-menu {
+    float: right;
+    padding: 25px 20px 0 0;
+}
+.icon {
+    width: 175px;
+    height: 175px;
+}
+
+/* HEADER */
+.menu-wrapper {
+    height: 100px;
+}
+.main-logo {
+    float: left;
+    width: 50%;
+}
+.main-logo img {
+    width: 285px;
+}
+.custom-menu {
+    width: 50%;
+    float: right;
+    font-size: 1.5em;
+    font-weight: 300;
+    padding-top: 15px;
+}
+.menu-item-32 {
+    background-color: #0DD398;
+    padding: 10px 30px;
+    box-shadow: 4px 4px 4px -1px rgba(0, 0, 0, 0.26);
+    -webkit-box-shadow: 4px 4px 4px -1px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 4px 4px 4px -1px rgba(0, 0, 0, 0.26);
+}
+.current-menu-item a {
+    font-weight: 500 !important;
+}
+.menu-item a:hover {
+    font-weight: 400 !important;
+}
+
+/* FRONT PAGE */
+.homepage-img {
+    text-align: center;
+    height: 82vh;
+    background-position: center top;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-image: url("images/homepage-img.png");
+}
+.homepage-text {
+    padding-top: 320px;
+    margin: 0;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 3px rgba(49, 49, 49, 0.4);
+    font-weight: 400;
+}
+.homepage-text-wrapper {
+    width: 30%;
+    margin: 0 auto;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    font-weight: 300;
+    font-size: .8em;
+    height: 35px;
+    clear: both;
+}
+.footer p{
+    margin: 0;
+    margin-top: 25px;
+}
+
+/* ABOUT PAGE */
+.about-row {
+    margin: 0 auto;
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.history-row {
+    flex-direction: row-reverse;
+}
+.about-container {
+    width: 50%;
+}
+.about-text {
+    padding: 30px;
+    height: 100%;
+    font-size: 1.1em;
+}
+.about-img {
+    flex: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.purpose-img {
+    background-image: url("images/green-img.png");
+}
+.history-img {
+    background-image: url("images/red-img.png");
+}
+.service-img {
+    background-image: url("images/blue-img.png");
+}
+.purpose-text {
+    background-color: #31BA91;
+    padding-top: 55px;
+}
+.history-text {
+    padding-top: 50px;
+}
+.services-text {
+    background-color: #315ABA;
+    padding-top: 75px;
+}
+
+/* CONTACT PAGE */
+.contact-wrapper {
+    background-color: white;
+    color: black;
+    height: 600px;
+}
+.contact-subwrapper {
+    width: 75%;
+    margin: 0 auto;
+}
+.contact-wrapper h1 {
+    margin: 0;
+    padding: 40px 0 20px 80px;
+}
+.contact-form {
+    width: 50%;
+    height: 500px;
+    float: left;
+    background-color: white;
+}
+.wpforms-field-label {
+    font-weight: 300 !important;
+}
+.wp-block-table {
+    margin-left: 80px;
+    margin-right: 0;
+}
+.our-locations-map {
+    background-color: white;
+    width: 50%;
+    float: right;
+}
+.map-subcontainer {
+    margin: 0 auto;
+    height: 450px;
+    width: 50%;
+}
+textarea {
+    width: 80% !important;
+}
+.contact-footer {
+    background-color: #BA3145;
+    padding: 20px;
+    clear: both;
+    overflow: auto;
+}
+.contact-footer h1 {
+   padding-left: 40px;
+   margin-bottom: 20px;
+}
+.footer-col {
+    width: 25%;
+    float: left;
+    padding-left: 40px;
+}
+.contact-line-break {
+    margin-left: 40px;
+    width: 280px;
+    float: left;
+}
+.footer-line-break {
+    width: 30%;
+    margin-top: 50px;
+    clear: both;
+}
+
+/* HELP PAGE*/
+.help-banner {
+    background-color: white;
+    color: red;
+    text-align: center;
+    height: 350px;
+    padding: 100px;
+}
+.helpline-wrapper {
+    background-color: #31BA91;
+    height: 350px;
+    padding: 40px;
+}
+.helpline-wrapper h1 {
+    margin-top: 0;
+    padding-left: 20px;
+}
+.helpline-subwrapper {
+    width: 85%;
+    margin: 0 auto;
+}
+.helpline-text {
+    width: 50%;
+    float: left;
+    font-size: 1.1em;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+/* FAQ Page */
+.faq-container {
+    width: 100%;
+}
+.faq-subcontainer {
+	flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.question:hover {
+    font-weight: 400;
+}
+.answer {
+    line-height: 22px;
+}
+.faq-wrapper {
+    padding: 50px 100px;
+    flex: 2;
+    background-position: center;
+    background-size: cover;
+    background-image: url("images/faq-bg.png");
+}
+.faq-wrapper a p {
+    padding-bottom: 10px;
+}
+.faq-right-img {
+    flex: 1;
+    background-position: center;
+    background-size: cover;
+    background-image: url("images/faq-side.png");
+}
+.faq-right-img img {
+    width: 110%;
+    overflow: hidden;
+}
+
+/* DONATE PAGE */
+.content-area {
+    background-color: white;
+    color: #BA3145;
+    padding: 50px;
+}
+.woocommerce-result-count {
+    display: none!important;
+}
+.woocommerce-loop-product__title {
+    color: #515151;
+}
+.woocommerce-breadcrumb {
+    display: none!important;
+}
+.woocommerce-Price-amount {
+    color: #315ABA;
+}
+.size-woocommerce_thumbnail {
+    width: 85%!important;
+}
+#sidebar {
+    display: none!important;
+}
+.donate-menu {
+    float: right;
+    width: 50%;
+    margin-top: 35px;
+    text-align: right;
+    font-size: 1.2em;
+    padding-right: 40px;
+}
+.donate-menu a {
+    padding: 28px;
+    color: #515151;
+}
+.donate-text {
+    float: left;
+    width: 50%;
+}
+
+/* CART */
+.product-thumbnail {
+    width: 10%!important;
+}
+
+/* CHECKOUT */
+#customer_details {
+    background-color: #315ABA;
+    padding: 50px;
+}
+#customer_details h3 {
+    font-size: 2.3em;
+}
+#order_review {
+    padding: 50px;
+    padding-top: 0;
+}
+#order_review_heading {
+    padding-left: 50px;
+    font-size: 2.3em;
+}
+.woocommerce-cart-form {
+    background-color: white;
+    color: black;
+}
+.woocommerce-cart-form a {
+    color: black;
+}
+.cart-collaterals {
+    background-color: white;
+    color: black;
+    padding-top: 40px;
+}
+.woocommerce table.shop_table {
+    margin-bottom: 0;
+    padding-top: 40px;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1520px) {
+    .purpose-text {
+        padding-top: 25px;
+    }
+    .history-text {
+        padding-top: 10px;
+    }
+    .services-text {
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .main-logo {
+        width: 25%;
+    }
+    .custom-menu {
+        width: 75%;
+        font-size: 1.4em;
+    }
+    ul li {
+        padding: 10px 15px;
+        margin-right: 15px;
+    }
+    .homepage-text-wrapper {
+        width: 40% !important;
+    }
+    .homepage-text {
+        padding-top: 250px !important;
+    }
+    .wp-block-table {
+        margin-left: 0 !important;
+    }
+    .contact-wrapper h1 {
+        padding: 40px 0 20px 0 !important;
+    }
+    .map-subcontainer {
+        margin: 0 !important;
+    }
+    .helpline-wrapper {
+        height: 400px;
+    }
+    .help-banner h1 {
+        font-size: 1.7em;
+    }
+    .helpline-text {
+        font-size: 1em;
+    }
+    .faq-wrapper {
+        font-size: .9em!important;
+    }
+}
+
+@media screen and (max-width: 1257px) {
+    .purpose-text,
+    .history-text,
+    .services-text {
+        font-size: 1em;
+    }
+    .about-text h1 {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .purpose-text,
+    .history-text,
+    .services-text {
+        font-size: .92em;
+    }
+    .about-text h1 {
+        font-size: 1.6em;
+    }
+    .custom-menu {
+        font-size: 1.2em;
+        margin-top: 10px;
+    }
+    .line-break {
+        display: none;
+    }
+    ul li {
+        padding: 10px 10px;
+        margin-right: 10px;
+    }
+    .contact-subwrapper {
+        width: 90% !important;
+    }
+    .map-subcontainer img {
+        width: 250% !important;
+    }
+    .footer-col {
+        width: 50%;
+    }
+    .helpline-text {
+        width: 100%;
+        font-size: 1.2em;
+    }
+    .helpline-wrapper {
+        height: 575px;
+        padding: 20px;
+    }
+    .help-banner {
+        padding-top: 75px;
+    }
+    .help-banner h1 {
+        font-size: 1.5em;
+    }
+    .faq-wrapper {
+        font-size: .8em !important;
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .about-row {
+        flex-direction: column;
+        width: 100%;
+        display: block;
+        height: 100%;
+    }
+    .about-img {
+        height: 400px;
+        flex: 100%;
+    }
+    .about-container {
+        width: 100%;
+    }
+    .homepage-text-wrapper {
+        width: 50% !important;
+    }
+    .homepage-text {
+        font-size: 2em !important;
+        padding-top: 235px !important;
+    }
+    .contact-form {
+        width: 90% !important;
+    }
+    .our-locations-map {
+        display: none;
+    }
+    .desktop-menu {
+        display: none;
+    }
+    .mobile-nav {
+        display: block;
+    }
+    .menu-item {
+        display: block;
+        float: right;
+        clear: right;
+    }
+    .menu-menu-1-container {
+        width: 20%;
+        float: right;
+        position: absolute;
+        top: 90px;
+        right: 0px;
+        background-color: #BA3145;
+        text-align: center;
+    }
+    .menu-menu-1-container ul {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-left: 10px !important;
+        margin-bottom: 5px;
+    }
+    .menu-menu-1-container ul li {
+        flex: 0 0 auto;
+        border-bottom: 1px white solid;
+        margin-bottom: 15px;
+    }
+    .menu-item-32 {
+        border-bottom: none !important;
+        margin-bottom: 5px !important;
+    }
+    .helpline-wrapper {
+        height: 615px;
+    }
+    .faq-wrapper {
+        font-size: .9em !important;
+    }
+    .faq-right-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .menu-menu-1-container {
+        width: 30%;
+    }
+    .homepage-text-wrapper {
+        width: 60% !important;
+    }
+    .donate-menu {
+        padding-right: 0 !important;
+        margin-bottom: 50px !important;
+        margin-top: 0 !important;
+    }
+    .donate-text {
+        width: 100% !important;
+    }
+    .donate-menu a {
+        margin: 20px 10px !important;
+        padding: 20px 10px !important;
+    }
+    .help-banner {
+        padding: 50px;
+    }
+    .helpline-wrapper {
+        height: 750px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer-col {
+        width: 100%;
+    }
+    .helpline-wrapper {
+        height: 700px;
+    }
+    .helpline-text {
+        font-size: 1em;
+    }
+    .faq-wrapper {
+        font-size: .8em !important;
+    }
+}

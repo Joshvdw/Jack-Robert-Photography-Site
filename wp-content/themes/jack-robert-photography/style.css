@@ -1,0 +1,1010 @@
+/*
+Theme Name: Jack Robert Photography Custom Theme
+Theme URI: https://joshvdw.com/theme
+Author: Joshua van der Waay
+Author URI: https: //joshvdw.com/theme
+Description: Custom theme for Jack Robert Photography Website
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: <https://www.gnu.org/licenses/gpl-2.0.html>
+Text Domain: my-custom-theme
+Tags: custom-background
+*/
+
+/* COLOURS */
+/* background: #F2F0E6;
+
+bg-dark-blue: #2C4C5C;
+bg-dark-purple: #312D42;
+bg-dark-brown: #42342D;
+
+dark-text: #2D3B42;
+light-text: #E6EEF2;
+end */
+
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+/* GENERAL */
+body {
+    background-color: #F2F0E6;
+    color: #2D3B42;
+    width: 60%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #2D3B42;
+}
+
+ul li {
+    list-style-type: none;
+    float: right;
+    margin-right: 25px;
+}
+/* HAMBURGER MENU */
+.mobile-nav {
+    display: none;
+}
+
+.dropdown {
+    display: none;
+}
+
+.hamburger-menu {
+    float: right;
+    padding: 25px 20px 0 0;
+}
+
+.icon {
+    width: 175px;
+    height: 175px;
+}
+
+/* HEADER */
+.menu-wrapper {
+    height: 250px;
+    margin: 0 auto;
+}
+
+.main-logo-container {
+    float: left;
+    padding-top: 81px;
+    width: 50%;
+}
+
+.main-logo-header {
+    width: 271px;
+    height: 89px;
+}
+
+.custom-menu {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+    float: right;
+    padding-top: 150px;
+}
+
+#menu-item-16 {
+    margin-right: 0;
+}
+
+
+/* HOMEPAGE */
+.homepage-carousel {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+/* SERVICE BOXES */
+.services-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    height: 275px;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    color: #E6EEF2;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+.service-box {
+    width: 33.33%;
+}
+
+.service-box:hover {
+    filter: brightness(75%);
+
+}
+
+.service-box p {
+    padding-top: 125px;
+}
+
+.event-box, .sport-box, .portrait-box {
+    margin-right: 15px;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.event-box {
+    background-image: url("images/service-events.jpg");
+}
+.sport-box {
+    background-image: url("images/service-sports.jpg");
+
+}
+.portrait-box {
+    background-image: url("images/service-portrait.jpg");
+    margin-right: 0;
+}
+
+/* PROJECT STORIES */
+.header-banner {
+    background-color: #2D3B42;
+    color: #E6EEF2;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+}
+.header-banner h1 {
+    font-weight: 300;
+}
+
+.project-stories-container {
+    margin-bottom: 75px;
+}
+
+.project-story-wrapper {
+    overflow: hidden;
+    height: 370px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.post-card {
+    padding: 40px;
+    color: #E6EEF2;
+    width: 50%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    margin-right: 3px;
+    line-height: 140%;
+}
+
+.post-card p {
+    letter-spacing: .6px;
+}
+
+.post-card h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.7em;
+}
+
+.post-card h3 a {
+    pointer-events: none;
+    color: #E6EEF2;
+}
+
+.story-img {
+    width: 50%;
+}
+
+.story-img img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    object-position:center;
+}
+
+div.post-card p:last-child {
+    font-style: italic!important;
+    font-size: .7em !important;
+    float: right;
+}
+
+/* ABOUT */
+.about-wrapper {
+    display: inline-block;
+}
+
+.about-container {
+    margin: 0 auto;
+    padding-top: 50px;
+    overflow: hidden;
+    height: 410px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.about-text {
+    background-color: #2C4C5C;
+    padding: 40px;
+    color: #E6EEF2;
+    width: 75%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    margin-right: 2px;
+    line-height: 130%;
+}
+
+.about-text h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom: 1.2em;
+}
+
+.about-text p {
+    margin-bottom: 1em;
+}
+
+.about-img {
+    background-image: url("images/about-img.jpg");
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    width: 25%;
+}
+
+/* QUOTES */
+.quote-container {
+    height: 400px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-weight: 200;
+    margin: 0 auto;
+    font-style: italic;
+}
+
+.quote-subcontainer {
+    width: 60%;
+    margin: 0 auto;
+}
+.quote {
+    padding-top: 150px;
+    font-size: 2.1em;
+    margin-bottom: 10px;
+}
+.quote-by {
+    font-size: 1.2vw;
+}
+.about-quote, .about-quote-by, .pricing-quote, .pricing-quote-by {
+    color: #2C4C5C;
+}
+.homepage-quote, .homepage-quote-by {
+    color: #9E84BF;
+}
+.contact-quote, .contact-quote-by {
+    color: #CAB860;
+}
+
+.contact-quote {
+    padding-top: 100px;
+}
+
+.quotation-mark {
+    width: 5%;
+    display: block;
+    opacity: .2;
+}
+
+.quote-home-top {
+    padding-top: 40px;
+}
+
+.quote-home-bottom {
+    float: right;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    padding-top: 40px;
+}
+
+
+/* SHOP */
+.woocommerce-breadcrumb,
+.woocommerce-ordering,
+.woocommerce-products-header,
+.woocommerce-result-count,
+#sidebar {
+    display: none!important;
+}
+.categories_click {
+    display: none;
+}
+
+.menu-cart {
+    float: right;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pbc_container {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.pbc_title {
+    font-weight: 300;
+}
+
+.woocommerce-loop-product__title {
+    font-weight: 400;
+    font-size: 0.9em!important;
+    float: left;
+    width: 65%;
+}
+
+.price {
+    float: right;
+    padding-top: .5em;
+}
+
+.term-description {
+    font-style: italic;
+    font-weight: 100;
+    font-size: 0.9em;
+    margin-bottom: 2em;
+}
+
+.woocommerce-Price-amount bdi {
+    color: #2D3B42;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+.product_type_simple {
+    font-size: 0.85em!important;
+    color: #2C4C5C !important;
+}
+
+.added_to_cart {
+    padding-left: 20px;
+    font-size: .8em;
+}
+
+/* SINGLE PRODUCT */
+.wc-tabs {
+    display: none;
+}
+
+.product_meta {
+    display: none;
+}
+
+.related h2 {
+    margin-bottom: 1.1em;
+}
+
+.woocommerce-tabs {
+    margin-bottom: 3em;
+}
+
+#primary {
+    margin-bottom: 3em;
+    display: inline-block;
+    width: 100%;
+}
+
+.woocommerce-cart-form {
+    margin-top: 50px;
+}
+
+.woocommerce-cart-form, .cart_totals {
+    font-family: 'Roboto', sans-serif;
+}
+
+.cart_totals {
+    margin-top: 25px;
+}
+
+
+.cart_totals h2 {
+    margin-bottom: 1.2em;
+}
+
+.coupon input {
+    height: 36px!important;
+}
+
+.coupon button {
+    margin-left: 10px!important;
+}
+
+#coupon_code {
+    width: 95px!important;
+}
+
+.checkout-button {
+    background-color: #2C4C5C!important;
+    color: #E6EEF2!important;
+    font-family: Arial, Helvetica, sans-serif!important;
+}
+
+/* CHECKOUT */
+#customer_details, #order_review_heading {
+    margin-bottom: 1.25em!important;
+}
+
+.place-order {
+    margin-bottom: 3em!important;
+}
+
+/* PRICING */
+.pricing-wrapper {
+    display: inline-block;
+}
+
+.pricing-header {
+    margin-top: 50px;
+    background-color: #312D42;
+    color: #E6EEF2;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    margin: auto;
+    width: 100%;
+}
+
+.pricing-header h1 {
+    font-weight: 300;
+    margin-bottom: 1.1em;
+}
+
+.pricing-header p {
+    font-size: 0.9em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-bottom: 1.1em;
+}
+
+.pricing-boxes {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-top: 50px;
+    color: #E6EEF2;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    height: max-content;
+}
+
+.print-type-header {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #2D3B42;
+    padding: 20px;
+}
+
+.print-type-header h2 {
+    font-weight: 300;
+}
+
+.price-box {
+    width: 33.33%;
+    border: .5px solid #2D3B42;
+    height: 100%;
+}
+
+.paper-type-container {
+    display: flex;
+    color: #2D3B42;
+    background-color: #E6EEF2;
+}
+
+.paper-type-box {
+    width: 33.33%;
+    padding-bottom: 30px;
+}
+
+.paper-type-box p:first-child {
+    font-size: .6em;
+}
+
+.paper-type-box p {
+    padding-top: 30px;
+    font-weight: 400;
+}
+
+.a5, .a4 {
+    border-right: .5px solid #2D3B42;
+}
+
+.print-type-description {
+    background-color: #2C4C5C;
+    padding: 40px 20px;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+}
+
+.digital-only, .normal-print {
+    margin-right: 15px;
+}
+
+/* CONTACT */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input:focus,
+textarea:focus{
+    outline: none;
+}
+
+.asterisk {
+    color: #FB2222;
+}
+
+.contact-container {
+    padding-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    width: 110%;
+}
+
+.wpcf7-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wpcf7-number {
+    width: 100%;
+}
+
+.contact-container h1 {
+    font-weight: 600;
+    margin-bottom: 1.5em;
+}
+
+.contact-container p {
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    margin-bottom: 3.5em;
+    flex: 50%;
+}
+
+.contact-container input {
+    margin-top: 1.2em;
+    height: 40px;
+    border: none;
+    width: 80%;
+    padding: 10px;
+}
+
+.contact-container textarea {
+    margin-top: 1.2em;
+    width: 90%;
+    border: none;
+    padding: 10px;
+}
+
+.wpcf7-submit {
+    width: 80px!important;
+    color: #E6EEF2;
+    background-color: #2C4C5C;
+    letter-spacing: 1.5px;
+}
+
+.wpcf7-not-valid-tip {
+    margin-top: 10px;
+}
+
+.wpcf7-response-output {
+    width: 100%;
+    clear: both;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px!important;
+    margin: 0!important;
+}
+
+
+/* FOOTER */
+.footer-line {
+    width: 50%;
+    margin: 50px auto;
+    opacity: .5;
+    margin-top: 0;
+}
+
+.social-links {
+    width: 95px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.social-links a {
+    padding-right: 10px;
+}
+
+.mail-icon {
+    padding-right: 0px!important;
+}
+
+.social-subcontainer {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* DASHBOARD */
+#postdivrich {
+    display: none!important;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1700px) {
+    body {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    body {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+
+    /* PROJECT STORIES */
+    .post-card {
+        font-size: .9em;
+    }
+
+    /* ABOUT */
+    .about-text h1 {
+        font-size: 1.7em;
+    }
+
+    /* PRICING */
+    .print-type-description {
+        padding: 20px 10px;
+        height: 85px;
+    }
+}
+
+@media screen and (max-width: 1084px) {
+
+    /* PROJECT STORIES */
+    .post-card {
+        font-size: .8em;
+    }
+
+    .post-card h3 {
+        line-height: 1.25em;
+    }
+
+    /* ABOUT */
+    .about-text {
+        padding: 25px;
+    }
+    .about-text p {
+        font-size: .9em;
+    }
+
+    .about-text h1 {
+        font-size: 1.4em;
+        margin-bottom: .9em;
+    }
+
+    /* QUOTE */
+    .quote {
+        font-size: 3vw;
+    }
+
+    /* PRICING */
+    .print-type-header h2 {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    
+    /* HEADER */
+    .main-logo-header {
+        width: 200px;
+        height: 100%;
+    }
+
+    .custom-menu {
+        font-size: 18px;
+        padding-top: 130px;
+    }
+
+    ul li {
+        margin-right: 15px;
+    }
+
+    /* SERVICES */
+    .services-container {
+        margin-top: 25px;
+        height: 200px;
+    }
+
+    .event-box {
+        background-position: left;
+    }
+
+    .service-box {
+        height: 200px;
+    }
+
+    .service-box p {
+        padding-top: 90px;
+    }
+
+    /* PRICING */
+    .pricing-header {
+        margin-top: 15px;
+    }
+
+    .print-type-description p {
+        font-size: .8em;
+    }
+
+    .print-type-header h2 {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 788px) {
+
+    /* HOMEPAGE */
+    .homepage-carousel {
+        padding-top: 15px;
+    }
+
+     /* HAMBURGER MENU */
+     .desktop-menu {
+         display: none;
+     }
+
+     #menu-nav-bar-1 li {
+         margin-bottom: 5px;
+     }
+
+     .mobile-nav {
+         display: block;
+     }
+
+     .menu-item {
+         display: block;
+         float: right;
+         clear: right;
+     }
+
+     .menu-nav-bar-container {
+         float: right;
+         margin-top: 30px;
+         margin-right: -45px;
+         text-align: right;
+     }
+
+     .menu-nav-bar-container ul {
+         display: flex;
+         flex-direction: column-reverse;
+     }
+
+    .hamburger-menu {
+        float: right;
+        padding: 0;
+        margin-top: -20px;
+    }
+
+    /* PROJECT STORIES */
+    .project-story-wrapper {
+        display: block;
+        height: 100%;
+    }
+
+    .post-card {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .story-img {
+        width: 100%;
+    }
+
+    /* ABOUT */
+    .about-container {
+        height: 525px;
+        padding-top: 15px;
+    }
+
+    .about-text {
+        width: 60%;
+    }
+
+    .about-img {
+        width: 40%;
+    }
+
+    /* SERVICES */
+    .services-container {
+        margin-top: 25px ;
+    }
+
+    .service-box p {
+        font-size: .7em;
+    }
+
+    /* QUOTE */
+    .quote-subcontainer {
+        width: 80%;
+    }
+
+    .quote {
+        font-size: 5vw;
+    }
+
+    .quote-by {
+        font-size: 2vw;
+    }
+
+    .quotation-mark {
+        width: 7%;
+    }
+
+    .pricing-quote {
+        padding-top: 125px;
+    }
+
+    /* SHOP */
+    .woocommerce-cart-form {
+        margin-top: 0;
+    }
+
+    /* PRICING */
+    .pricing-boxes {
+        margin-top: 25px;
+    }
+
+    .paper-type-container {
+        flex-direction: column;
+    }
+
+    .paper-type-box {
+        width: 100%;
+        border-bottom: .5px solid #2D3B42;
+        border-right: none;
+    }
+
+    .pricing-header h1 {
+        font-size: 1.7em;
+    }
+
+    .pricing-header p {
+        font-size: .7em;
+    }
+
+    .print-type-header {
+        height: 70px;
+        padding: 10px;
+    }
+
+    /* CONTACT */
+    .contact-container {
+        padding-top: 10px;
+    }
+
+    .contact-container p {
+        flex: 100%;
+    }
+
+    .contact-container input {
+        width: 90%;
+    }
+
+    .contact-container textarea {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 632px) {
+
+    body {
+        width: 90%;
+    }
+
+    /* SERVICES */
+    .event-box, .sport-box {
+        margin-right: 5px;
+    }
+
+    /* ABOUT */
+    .about-container {
+        display: block;
+        height: 900px;
+    }
+
+    .about-text {
+        width: 100%;
+        height: 50%;
+    }
+
+    .about-img {
+        width: 100%;
+        height: 50%;
+    }
+
+    .about-quote-container {
+        height: 300px;
+    }
+
+    /* PROJECT STORIES */
+    .post-card {
+        padding: 20px;
+    }
+
+    /* QUOTE */
+    .quote {
+        padding-top: 150px;
+    }
+
+    .quotation-mark {
+        width: 10%;
+    }
+
+    /* PRICING */
+    .print-type-header {
+        height: 100px;
+        padding: 20px;
+        padding-top: 35px;
+    }
+
+    .print-type-header h2 {
+        font-size: 1.2em;
+    }
+
+    .pricing-boxes {
+        display: block;
+        width: 100%;
+    }
+
+    .price-box {
+        width: 100%;
+    }
+
+    .paper-type-container {
+        flex-direction: row;
+    }
+
+    .a5, .a4 {
+        border-right: .5px solid #2D3B42;
+    }
+
+    .normal-print, .digital-only {
+        margin-bottom: 10px;
+    }
+
+    .print-type-description {
+        height: 100px;
+        font-size: 1.1em;
+        padding-top: 42px;
+    }
+}
